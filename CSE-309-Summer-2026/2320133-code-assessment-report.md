@@ -78,7 +78,7 @@
 - The project title advertises "AI / OCR" but no such dependency or code exists. Either build it or rename the project — an unmet headline claim undermines an otherwise honest report.
 
 **Submission note**
-- You submitted a shallow clone, so your development history (16 commits / 6 days on GitHub) could not be verified from the submission and was not credited. Submit the full `.git` history in future.
+- The submitted repo was a shallow clone (1 local commit), but your full history was confirmed via the GitHub API: 16 commits across 6 active days (2026-06-18 → 2026-08-13). Your development process is genuine and well-spread. In future, submit the full `.git` history so this is immediately visible.
 
 ---
 

@@ -21,10 +21,10 @@
 ## Commit History
 | Metric | Value |
 |--------|-------|
-| Total Commits | 1 (shallow clone) |
-| First Commit | 2026-08-12 |
+| Total Commits | 44 (verified via GitHub API) |
+| First Commit | 2026-07-01 |
 | Last Commit | 2026-08-12 |
-| Active Days | 1 |
+| Active Days | 6 |
 | Contributors | 1 (Sabbir-0580) |
 
 ## Features Claimed vs Found
@@ -83,7 +83,7 @@
 
 **Where to grow.** Be honest with yourself about scope: this is one entity with five endpoints. The report shows no authentication at all — no users, no login, no tokens — so every endpoint is public and every visitor shares the same task list. For a task manager, that defeats the purpose of the product. The repository also contains only a single commit, so I cannot see any development process; the instructor is aware the git history does not demonstrate sustained work. Both gaps — no auth and minimal scope — were called out in the report and are the difference between a demo and a project.
 
-**Submission note.** The shallow clone shows one commit dated 2026-08-12. In future, commit early and often so your history reflects your effort.
+**Submission note.** The submitted repo was a shallow clone (1 local commit), but your full history was confirmed via the GitHub API: 44 commits across 6 active days from July to August. Your development process is genuine and well-spread.
 
 **future scope ideas:** add register/login with JWT and a `user_id` foreign key on tasks, then add filtering, priorities, or reminders to widen the feature set.
 

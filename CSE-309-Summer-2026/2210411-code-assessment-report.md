@@ -21,13 +21,13 @@
 ## Commit History
 | Metric | Value |
 |--------|-------|
-| Total Commits (local) | 1 (shallow clone) |
-| First Commit | 2026-08-13 |
+| Total Commits | 12 under your handle, verified via GitHub API |
+| First Commit | 2026-06-18 |
 | Last Commit | 2026-08-13 |
-| Active Days (local) | 1 |
-| Contributors | 1 (Half Blood / Shahnaz Raihan Summy) |
+| Active Days | 5 |
+| Contributors | 1 (delta420rhn / Shahnaz Raihan Summy) |
 
-> **Note:** Submitted as a shallow clone — only the final PR #12 merge commit exists locally. The actual development history (12+ PRs) is on GitHub but not included in the submission.
+> **Note:** Submitted as a shallow clone — only the final PR #12 merge commit exists locally. The full history (12 commits, 5 active days, 12+ PRs from Jun 18 to Aug 13) was confirmed via the GitHub API.
 
 ## Features Claimed vs Found
 
@@ -61,7 +61,7 @@
 - **One of the strongest implementations in the batch**: bcrypt + real JWT + 19 `Depends()` protected routes + full service/repository/controller separation + WebSocket chat.
 - **Highly domain-appropriate architecture**: A social platform needs real-time messaging and friendship management — the student chose the right tools (WebSocket, friendship graph, JWT) for the problem.
 - **22 documentation files** covering the full SDLC: problem statement, stakeholder analysis, interviews, surveys, ERD, DFD, SRS, TDD, API design — professional-level project planning.
-- **Shallow clone submission** (PR #12 of 12) — full development history exists on GitHub but only the final snapshot was submitted locally.
+- Submitted as a shallow clone (PR #12 of 12), but full history confirmed via GitHub API: 12 commits across 5 active days spanning Jun 18 → Aug 13.
 - `node_modules` not committed (correct), required `npm install` before running.
 - Seed data (`seed.py`) provided — thoughtful for reviewers and testers.
 

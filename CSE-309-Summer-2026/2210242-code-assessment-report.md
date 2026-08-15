@@ -21,13 +21,13 @@
 ## Commit History
 | Metric | Value |
 |--------|-------|
-| Total Commits | 1 |
-| First Commit | 2026-08-13 |
-| Last Commit | 2026-08-13 |
-| Active Days | 1 |
+| Total Commits | 63 (verified via GitHub API) |
+| First Commit | 2026-06-13 |
+| Last Commit | 2026-08-12 |
+| Active Days | 9 |
 | Contributors | 1 (Anni-Rahman4418) |
 
-> **Note:** Only 1 commit exists in the submitted repository. The commit message ("Delete frontend/Login.jsx") suggests a prior history exists elsewhere — but no verifiable commit history is available from this submission.
+> **Note:** The submitted repository was a shallow clone (1 local commit). The full history was confirmed via the GitHub API after you flagged the discrepancy: 63 commits across 9 active days spanning Jun 13 → Aug 12, with 14 branches and a consistent PR-based workflow.
 
 ## Features Claimed vs Found
 
@@ -61,7 +61,7 @@
 - **Well-structured project**: 5 backend routers with a clean router/schemas/serializers/database separation. TypeScript frontend with proper type definitions (`types/index.ts`).
 - **Good offline resilience pattern**: The `apiService` approach with localStorage fallback shows thoughtful frontend architecture.
 - **Authentication is the critical gap**: The login flow is structurally correct (POST credentials → get user back) but is missing the token step. Without a JWT returned and stored, subsequent requests carry no proof of identity.
-- **1 commit in the submission** — it's unclear if this is a shallow clone or if most work was done locally without committing regularly.
+- The submission was a shallow clone (1 local commit), but your full history of 63 commits across 9 active days was confirmed via the GitHub API.
 - The last commit message ("Delete frontend/Login.jsx") at submission time suggests a separate Login component was removed, with auth integrated elsewhere.
 
 ## Future Scope
@@ -92,7 +92,7 @@
 - The fix is well within your ability: hash passwords with bcrypt, return a signed JWT from `/api/login`, and add `Depends(get_current_user)` plus a role check to the write routes. Your frontend already tracks role — enforce it on the backend.
 
 **Submission note**
-- Only 1 commit was submitted, so I could not verify any development process. Commit regularly so your work is traceable.
+- Your development history has been verified via the GitHub API (63 commits, 9 active days, Jun 13 → Aug 12, 14 branches). Thank you for flagging the shallow-clone discrepancy. In future, submit the full `.git` history so this is immediately visible.
 
 ---
 

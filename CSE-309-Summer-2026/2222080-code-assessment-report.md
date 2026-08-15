@@ -80,7 +80,7 @@
 - The renewal-email feature is a print-stub — either implement real SMTP delivery or present it honestly as a placeholder.
 
 **Submission note**
-- You submitted a shallow clone, so your development history (48 commits / 10 days on GitHub) could not be verified from the submission and was not credited. Submit the full `.git` history in future.
+- The submitted repo was a shallow clone (1 local commit), but your full history was confirmed via the GitHub API: 48 commits across 10 active days (2026-06-17 → 2026-08-08). Your development process is genuine and well-spread. In future, submit the full `.git` history so this is immediately visible.
 
 ---
 
